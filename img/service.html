@@ -1,0 +1,1412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .justice {
+            display: flex;
+            justify-content: space-around;
+
+            color: white;
+            align-items: center;
+            padding-top: 30px;
+
+        }
+
+        .balance {
+            height: 30px;
+
+
+        }
+
+        .services {
+            list-style: none;
+            display: flex;
+            gap: 30px;
+
+        }
+
+
+        .buttt {
+            padding: 12px;
+            background-color: #5A524C;
+            border-radius: 25px;
+            font-size: 15px;
+            border: none;
+            padding: 15px;
+
+        }
+
+
+        .search {
+            align-items: center;
+            display: flex;
+            gap: 30px;
+
+        }
+
+        a {
+            color: #FFFFFF83;
+        }
+
+        a:hover {
+            color: white;
+        }
+
+        .buttt:hover {
+            background-color: #A0876E;
+        }
+
+        .hero {
+
+
+            background-image: url(./services-hero-cover-scaled.webp);
+            background-position: center;
+            background-size: cover;
+            height: 60vh;
+            padding: 120px;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            margin-top: -100px;
+
+
+        }
+
+        .leading {
+            font-size: 40px;
+            color: white;
+
+        }
+
+        .experience {
+            font-size: 20px;
+            color: white;
+
+
+        }
+
+        .family {
+            display: flex;
+            justify-content: space-around;
+            color: white;
+            padding: 30px;
+            gap: 20px;
+
+        }
+
+        .com {
+
+            margin-top: 30px;
+            padding: 20px;
+            border-radius: 30px;
+            width: 300px;
+            border: 1px solid #E6E6E6;
+            height: 200px;
+
+        }
+
+
+
+
+
+        .sem {
+
+            color: #B9B8B6;
+            margin-top: -4px;
+            color: #5C544D;
+
+        }
+
+        .com i {
+            color: #A0876E;
+            font-size: 30px;
+            margin-top: 30px;
+        }
+
+        .com h5 {
+            margin-top: 8px;
+            font-size: 23px;
+            color: #5C544D;
+        }
+
+        .practice {
+            text-align: center;
+            color: #5C544D;
+            padding-top: 60px;
+        }
+
+        .com:hover {
+
+            background-color: #A0876E;
+
+
+            color: white;
+            border-radius: 20px;
+
+
+
+        }
+
+        .com:hover i {
+            color: white;
+        }
+
+        .com:hover h5 {
+            color: white;
+        }
+
+        .com:hover p {
+            color: white;
+        }
+
+        .glass {
+
+            height: 220px;
+            margin-top: -50px;
+
+
+        }
+
+        .help {
+
+            display: flex;
+            justify-content: space-around;
+            background-color: #5A524C;
+            height: 30vh;
+            align-items: center;
+            width: 80%;
+            border-radius: 20px;
+            margin: auto;
+
+        }
+
+        .ultr {
+            color: white;
+        }
+
+        .us {
+
+            height: 25%;
+            width: 15%;
+            border-radius: 10px;
+            border: none;
+            background-color: #A0876E;
+            padding: 10px;
+        }
+
+        .us:hover {
+
+            background-color: #93785D;
+
+        }
+
+        .faq {
+            height: 95vh;
+            border-radius: 20px;
+
+
+        }
+
+        .fees {
+            display: flex;
+            justify-content: space-around;
+            padding-top: 40px;
+        }
+
+        .frequent {
+            font-size: 60px;
+            color: #5C544D;
+
+
+
+
+        }
+
+        .curabitur {
+            font-size: 19px;
+            color: #5C544D;
+
+
+
+        }
+
+        .how {
+            font-size: 25px;
+            color: #5C544D;
+
+        }
+
+        .list {
+
+            font-size: 25px;
+            color: #5C544D;
+
+        }
+
+        .price {
+
+            font-size: 25px;
+            color: #5C544D;
+
+        }
+
+        .docu {
+            padding-top: 30px;
+
+        }
+
+        .we {
+            display: flex;
+            justify-content: space-around;
+            background-color: #272521;
+            height: 100vh;
+            padding-top: 15%;
+
+        }
+
+        .best {
+
+            font-size: 50px;
+            color: white;
+
+
+
+
+        }
+
+        .etiam {
+            font-size: 21px;
+            color: white;
+
+
+
+        }
+
+        .con {
+            font-size: 15px;
+            height: 60px;
+            width: 40%;
+            padding: 11px;
+            border-radius: 10px;
+            border: none;
+            padding-top: 10px;
+            color: white;
+            background-color: #A0876E;
+            margin-top: 70px;
+        }
+
+        .con:hover {
+
+            background-color: #93785D;
+
+
+        }
+
+        .plan {
+
+            display: flex;
+            flex-direction: column;
+            gap: 80px;
+
+        }
+
+        .financial i {
+            font-size: 35px;
+            color: #A0876E;
+
+
+
+        }
+
+        .report i {
+            font-size: 35px;
+            color: #A0876E;
+
+
+
+        }
+
+        .tax i {
+
+            font-size: 35px;
+            color: #A0876E;
+
+
+
+
+        }
+
+        .account i {
+
+            font-size: 35px;
+            color: #A0876E;
+
+
+
+
+        }
+
+        .leo {
+
+
+            display: flex;
+            flex-direction: column;
+            gap: 80px;
+        }
+
+        .nec {
+            font-size: 22px;
+            color: white;
+
+
+
+        }
+
+        .vel {
+            font-size: 18px;
+            color: white;
+
+
+
+        }
+
+        .financial {
+            padding: 20px;
+
+            border-radius: 20px;
+            border: 3px solid #262420;
+        }
+
+        .financial:hover {
+            background-color: #A0876E;
+            color: white;
+
+        }
+
+        .report {
+            padding: 20px;
+
+            border-radius: 20px;
+            border: 3px solid #262420;
+
+
+        }
+
+        .report:hover {
+            background-color: #A0876E;
+            color: white;
+        }
+
+        .tax {
+            padding: 20px;
+
+            border-radius: 20px;
+            border: 3px solid #262420
+        }
+
+        .tax:hover {
+            background-color: #A0876E;
+            color: white;
+        }
+
+        .account {
+            padding: 20px;
+
+            border-radius: 20px;
+            border: 3px solid #262420
+        }
+
+        .account:hover {
+            background-color: #A0876E;
+            color: white;
+        }
+
+        .matter {
+            font-size: 40px;
+            text-align: center;
+            padding-top: 70px;
+            color: #5C544D;
+        }
+
+        .person-1 {
+
+            height: 150px;
+            padding: 15px;
+
+
+        }
+
+        .priv {
+            font-size: 24px;
+            color: #5C544D;
+
+            padding: 15px;
+
+
+        }
+
+        .finibus {
+
+
+
+
+            padding: 15px;
+
+            color: #3F4245;
+            font-size: 18px;
+        }
+
+        .randy {
+            color: #3F4245;
+            font-size: 17px;
+            padding: 15px;
+        }
+
+        .p1 {
+
+            border: 1px solid#E6E6E6;
+            padding: 23px;
+
+
+        }
+
+        .p1:hover {
+            background-color: whitesmoke;
+        }
+
+
+        .p2 {
+            border: 1px solid#E6E6E6;
+            padding: 23px;
+        }
+
+        .p2:hover {
+            background-color: whitesmoke;
+        }
+
+        .p3:hover {
+            background-color: whitesmoke;
+        }
+
+        .p3 {
+
+            border: 1px solid#E6E6E6;
+            padding: 23px;
+        }
+
+        .personss {
+            display: flex;
+            justify-content: space-around;
+            padding-top: 130px;
+
+        }
+
+        .logo {
+            display: flex;
+            justify-content: space-around;
+            padding: 60px;
+            gap: 40px;
+            background-color: white;
+
+        }
+
+        .logo img {
+
+            width: 160px;
+        }
+
+        .contact {
+            background-image: url(./contact.webp);
+            background-position: center;
+            background-size: cover;
+            height: 150vh;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .personal {
+            color: white;
+            font-size: 20px;
+
+        }
+
+        .office {
+            color: white;
+            display: flex;
+            gap: 10px;
+            font-size: 23px;
+            margin-top: 20px;
+        }
+
+        .hide {
+            gap: 10px;
+            color: white;
+            display: flex;
+            font-size: 23px;
+            margin-top: 30px;
+        }
+
+        .hours {
+            color: white;
+            display: flex;
+            gap: 10px;
+            font-size: 23px;
+            margin-top: 20px;
+        }
+
+        .office i {
+            color: #A0876E;
+            margin-top: 25px;
+            font-size: 30px;
+        }
+
+        .hide i {
+
+            color: #A0876E;
+            margin-top: 25px;
+            font-size: 30px;
+        }
+
+        .hours i {
+            color: #A0876E;
+            margin-top: 25px;
+            font-size: 30px;
+        }
+
+        .north {
+            color: white;
+            margin-top: -10px;
+            font-size: 20px;
+        }
+
+        .info {
+            color: white;
+            margin-top: -10px;
+            font-size: 20px;
+        }
+
+        .monday {
+            margin-top: -10px;
+            color: white;
+            font-size: 20px;
+        }
+
+        .menu {
+            margin-top: 100px;
+
+
+        }
+
+        .purus {
+            font-size: 20px;
+
+
+
+        }
+
+        .copy {
+            justify-content: space-around;
+            display: flex;
+        }
+
+
+        .envelope {
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+
+        }
+
+        footer {
+
+            background-color: #2F2A23;
+
+            height: 90vh;
+        }
+
+        .main {
+            display: flex;
+            justify-content: space-around;
+            padding-top: 100px;
+
+        }
+
+        .over {
+
+            color: #979591;
+            list-style: none;
+        }
+
+        .ud {
+
+            color: #979591;
+            list-style: none;
+        }
+
+        .num i {
+
+
+            color: #A0876E;
+            margin-right: 15px;
+
+        }
+
+        .mail i {
+
+            color: #A0876E;
+            margin-right: 15px;
+
+
+        }
+
+        .num {
+
+            background-color: #3A352E;
+            border-radius: 8px;
+            border: none;
+            padding: 15px;
+            width: 200px;
+
+
+        }
+
+        .mail {
+            background-color: #3A352E;
+            border-radius: 8px;
+            border: none;
+            padding: 15px;
+            width: 200px;
+
+        }
+
+
+        .num:hover {
+            background-color: #252018;
+        }
+
+        .mail:hover {
+            background-color: #252018;
+        }
+
+        .copy {
+
+            color: #979591;
+        }
+
+        .rote {
+
+
+            margin-top: 100px;
+            background-color: #2F2A23;
+        }
+
+
+        form {
+            background-color: white;
+            width: 550px;
+            height: 110vh;
+            margin-top: 40px;
+            border-radius: 10px;
+            border: none;
+        }
+
+        .name {
+            display: flex;
+            justify-content: space-around;
+            padding-top: 20px;
+        }
+
+        .email {
+            display: flex;
+            justify-content: space-around;
+            padding-top: 30px;
+
+        }
+
+        .subject {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            padding-top: 30px;
+            margin-left: 23px;
+            margin-right: 10px;
+        }
+
+        .fat {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            font-size: 18px;
+        }
+
+        .fit {
+
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            font-size: 18px;
+        }
+
+        .fat input {
+            width: 230px;
+            height: 30px;
+            border-radius: 10px;
+            border: none;
+            background-color: #F7F5F4;
+        }
+
+        .fit input {
+            width: 230px;
+            height: 30px;
+            border-radius: 10px;
+            border: none;
+            background-color: #F7F5F4;
+        }
+
+        .forr {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            font-size: 18px;
+
+        }
+
+        .servicess input {
+            width: 230px;
+            height: 30px;
+            border-radius: 10px;
+            border: none;
+            background-color: #F7F5F4;
+        }
+
+        .servicess {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            font-size: 18px;
+
+        }
+
+        .forr input {
+
+            width: 230px;
+            height: 30px;
+            border-radius: 10px;
+            border: none;
+            background-color: #F7F5F4;
+        }
+
+        .pass {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            font-size: 18px;
+
+        }
+
+        .pass input {
+            height: 30px;
+            border-radius: 10px;
+            border: none;
+            background-color: #F7F5F4;
+        }
+
+        .put input {
+            height: 160px;
+            border-radius: 10px;
+            border: none;
+            background-color: #F7F5F4;
+        }
+
+        .put {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            padding-top: 20px;
+            font-size: 18px;
+        }
+
+        .student {
+            padding-top: 40px;
+        }
+
+        .request {
+            display: block;
+            margin: auto;
+            margin-top: 30px;
+            width: 350px;
+            height: 45px;
+            border-radius: 10px;
+            border: none;
+            background-color: #A0876E;
+            color: white;
+        }
+
+        .iconss {
+            display: flex;
+            gap: 30px;
+            color: white;
+        }
+    </style>
+</head>
+
+
+<body>
+    <header class=" justice">
+
+
+        <img class="balance" src="./balance.svg" alt="">
+
+        <div>
+            <ul class="services ">
+
+                <li><a href="index.html">home</a></li>
+                <li><a href="">service</a></li>
+                <li><a href="about.html"> about</a> </li>
+                <li> <a href="">news</a></li>
+                <li> <a href=""> contact</a></li>
+
+
+            </ul>
+        </div>
+        <div class="search">
+            <i class="fa fa-search" aria-hidden="true"></i>
+            <button class="buttt"> +123 456 789</button>
+        </div>
+
+    </header>
+
+    <div class="hero">
+
+
+        <div>
+            <h2 class="leading">Leading Law Firm</h2>
+            <p class="experience">More than 20 years of experience</p>
+        </div>
+
+
+
+
+    </div>
+    <div class="line"></div>
+
+    <div class="practice">
+        <h1>Practice Areas</h1>
+    </div>
+
+
+    <div class="family">
+        <div class="law">
+            <div class="com">
+                <i class="fa fa-home" aria-hidden="true"></i>
+                <h5>
+
+                    Family Law
+                </h5>
+
+                <p class="sem">
+
+                    Aenean non accumsan antacumsan sem <br> tempus porta nec sit amet est.
+                </p>
+            </div>
+            <div class="com">
+                <i class="fa fa-university" aria-hidden="true"></i>
+                <h5>
+                    Banking & Finance
+                </h5>
+
+                <p class="sem">
+                    Aenean non accumsan antacumsan sem <br> tempus porta nec sit amet est.
+                </p>
+            </div>
+
+
+            <div class="com">
+
+                <i class="fa fa-car" aria-hidden="true"></i>
+                <h5>
+                    Car Accident
+
+
+                </h5>
+
+
+                <p class="sem">
+
+                    Aenean non accumsan antacumsan sem <br> tempus porta nec sit amet est
+                </p>
+            </div>
+        </div>
+
+        <div>
+            <div class="com">
+
+                <i class="fa fa-globe" aria-hidden="true"></i>
+                <h5>
+                    Immigration
+                </h5>
+
+                <p class="sem">
+                    Aenean non accumsan antacumsan sem <br> tempus porta nec sit amet est.
+                </p>
+            </div>
+            <div class="com">
+
+                <i class="fa fa-balance-scale" aria-hidden="true"></i>
+
+                <h5>
+                    Civil Law
+                </h5>
+
+                <p class="sem">
+                    Aenean non accumsan antacumsan sem <br> tempus porta nec sit amet est.
+                </p>
+            </div>
+
+
+
+            <div class="com">
+
+                <i class="fa fa-building" aria-hidden="true"></i>
+                <h5>
+                    Property Law
+
+                </h5>
+
+                <p class="sem">
+
+                    Aenean non accumsan antacumsan sem <br> tempus porta nec sit amet est.
+                </p>
+            </div>
+
+
+
+        </div>
+        <div>
+            <div class="com">
+
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                <h5>
+                    Consumer Law
+                </h5>
+
+                <p class="sem">
+
+                    Aenean non accumsan antacumsan sem <br> tempus porta nec sit amet est.
+                </p>
+            </div>
+
+
+
+
+            <div class="com">
+
+                <i class="fa fa-user-plus" aria-hidden="true"></i>
+                <h5>
+                    Insurance Law
+                </h5>
+
+                <p class="sem">
+                    Aenean non accumsan antacumsan sem <br> tempus porta nec sit amet est.
+                </p>
+            </div>
+
+
+
+
+            <div class="com">
+                <i class="fa fa-user" aria-hidden="true"></i>
+
+                <h5>Corporate Law</h5>
+
+                <p class="sem">Aenean non accumsan antacumsan sem <br> tempus porta nec sit amet est.</p>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="help">
+        <img class="glass" src="./about-us-cta-person@2x-copy.webp" alt="">
+
+        <div class="ultr">
+
+            <h2>Let us help you!</h2>
+            <p>At ultrices mi tempus imperdiet nulla malesuada</p>
+
+
+
+        </div>
+
+        <button class="us">contact us</button>
+
+
+    </div>
+
+
+    <div class="fees">
+
+        <div>
+
+
+            <img class="faq" src="./faq-image.jpg" alt="">
+        </div>
+
+
+        <div>
+            <h1 class="frequent">Frequently Asked <br> Questions</h1>
+
+            <p class="curabitur">Curabitur ac leo nunc estibul et mauris vel ante finibus maximus nec <br> ut leo,
+                integer consectetur.
+            </p>
+            <div class="docu">
+                <h3 class="how">How to get started?</h3>
+                <h3 class="list">List of documents</h3>
+                <h3 class="price">Prices & Fees</h3>
+            </div>
+
+
+        </div>
+
+
+
+    </div>
+
+    <div class="we">
+        <div>
+            <h1 class="best">We provide best <br> solutions</h1>
+            <p class="etiam">Etiam et varius felis. Donec et libero vitae <br> mauris consectetur egestas. Fusce aliquet
+                <br>, augue
+                non efficitur sodales, turpis nisl <br> consectetur sem, at rutrum lectus libero quis <br> elit.
+                Suspendisse cursus laoreet sapien, in <br> lobortis justo posuere vitae.
+            </p>
+
+
+            <button class="con">contact us</button>
+        </div>
+
+        <div class="plan">
+
+
+            <div class="financial">
+
+                <i class="fa fa-pie-chart" aria-hidden="true"></i>
+
+                <h3 class="nec">Financial Planning</h3>
+                <p class="vel">Curabitur ac leo nunc estibul et mauris <br> vel ante finibus maximus nec ut leo, <br>
+                    integer</p>
+
+            </div>
+
+
+            <div class="report">
+                <i class="fa fa-file-text-o" aria-hidden="true"></i>
+
+                <h3 class="nec">Financial Reports</h3>
+                <p class="vel">Curabitur ac leo nunc estibul et mauris <br> vel ante finibus maximus nec ut leo, <br>
+                    integer.
+                </p>
+
+
+            </div>
+
+        </div>
+
+
+        <div class="leo">
+
+            <div class="tax">
+                <i class="fa fa-calculator" aria-hidden="true"></i>
+
+                <h3 class="nec">Tax Management</h3>
+
+                <p class="vel">Curabitur ac leo nunc estibul et mauris <br> vel ante finibus maximus nec ut leo, <br>
+                    integer.</p>
+
+            </div>
+
+            <div class="account">
+
+
+                <i class="fa fa-database" aria-hidden="true"></i>
+                <h3 class="nec">Accounting</h3>
+                <p class="vel">Curabitur ac leo nunc estibul et mauris <br> vel ante finibus maximus nec ut leo,<br>
+                    integer.</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <div>
+        <h1 class="matter">No matter who you are, <br> we've got what you need</h1>
+    </div>
+
+
+
+    <div class="personss">
+
+        <div class="p1">
+
+            <img class="person-1" src="./person-1.png" alt="">
+
+            <h3 class="priv">Private clients</h3>
+            <p class="finibus">Curabitur ac leo nunc estibul et mauris <br> vel ante finibus maximus nec ut leo,<br>
+                integer
+                consectetur.</p>
+
+            <h5 class="randy">Randy Willis,Founder</h5>
+
+        </div>
+
+        <div class="p2">
+
+
+            <img class="person-1" src="./person-2.png" alt="">
+            <h3 class="priv">Enterpreneurs</h3>
+            <p class="finibus">Curabitur ac leo nunc estibul et mauris <br> vel ante finibus maximus nec ut leo, <br>
+                integer
+                consectetur.</p>
+
+
+            <h5 class="randy">Eugene Grand, Businessman</h5>
+
+
+        </div>
+        <div class="p3">
+
+            <img class="person-1" src="./person-3.png" alt="">
+            <h3 class="priv">Professional Firms</h3>
+            <p class="finibus">Curabitur ac leo nunc estibul et mauris <br> vel ante finibus maximus nec ut leo, <br>
+                integer consectetur.</p>
+
+
+            <h5 class="randy">Samantha Carrol, CEO</h5>
+
+        </div>
+
+
+
+
+
+
+    </div>
+
+
+    <div class="logo">
+        <img src="./logo1.svg" alt="">
+
+        <img src="./client-logo-2.svg" alt="">
+
+        <img src="./logo3.svg" alt="">
+
+        <img src="./client-logo-4.svg" alt="">
+
+
+        <img src="./client-logo-5.svg" alt="">
+
+        <img src="./client-logo-6.svg" alt="">
+    </div>
+
+
+
+
+    <div class="contact">
+        <div class="menu">
+            <div class="personal">
+                <h1>Get a Personal <br> Consultation</h1>
+            </div>
+            <div class="office">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <h3>Office</h3>
+            </div>
+
+            <p class="north">304 North Cardinal St. Dorchester <br>Center, MA 02124</p>
+
+            <div class="hide">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <h3>Contact</h3>
+
+            </div>
+            <p class="info">info@company.com <br>contact@company.com</p>
+
+            <div class="hours">
+                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                <h3>Open Hours</h3>
+            </div>
+            <p class="monday">Monday-Saturday 8 am - 6pm <br> Sunday 11am - 4pm</p>
+        </div>
+
+        <div>
+
+
+            <form>
+                <div class="student">
+                    <div class="name">
+                        <div class="fat">
+                            <label for=""> Name*
+                            </label>
+                            <input type="text">
+                        </div>
+
+                        <div class="fit">
+                            <label for=""> phone*
+                            </label>
+                            <input type="text">
+                        </div>
+                    </div>
+
+                    <div class="email">
+                        <div class="forr">
+                            <label for=""> email adress*
+                            </label>
+                            <input type="text">
+                        </div>
+                        <div class="servicess">
+
+                            <label for=""> service</label>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="subject">
+                        <div class="pass">
+                            <label for=""> subject</label>
+                            <input type="text">
+                        </div>
+
+                        <div class="put">
+                            <label for=""> paragraph text*
+                            </label>
+                            <input type="text">
+                        </div>
+                    </div>
+
+
+                    <button class="request"> request a quote</button>
+
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+            </form>
+
+
+        </div>
+    </div>
+
+    <footer>
+
+        <div class="main">
+            <div class="purus">
+                <img class="balance" src="./balance.svg" alt="">
+                <p style="color:  #979591;">Egestas purus viverra accumsan in nis in metus dictum at <br> tempor commodo
+                    sagittis nisl rhoncus
+                    mattis rhoncus <br> urna neque viverra.</p>
+                <div class="iconss">
+                    <i class="fa fa-facebook-official" aria-hidden="true"></i>
+
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+
+                    <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                </div>
+            </div>
+
+
+
+            <div class="blogs">
+                <h2 style="color: white;">
+                    Overview
+                </h2>
+                <ul class="over">
+                    <li>Home</li>
+                    <li>Service</li>
+                    <li>About us</li>
+                    <li>Blogs</li>
+                </ul>
+
+
+            </div>
+
+            <div class="site">
+
+                <h2 style="color: white;">Information</h2>
+
+                <ul class="ud">
+                    <li>FAQ</li>
+                    <li>site map</li>
+                    <li>cookie policy</li>
+                    <li>contact ud</li>
+                </ul>
+
+            </div>
+
+            <div class="map">
+
+                <h2 style="color: white;">Head Office</h2>
+                <p style="color:  #979591;">304 North Cardinal St. <br> Dorchester Center, MA <br> 02124</p>
+                <div class="envelope">
+                    <button class="num">
+
+                        <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
+                        (+123) 456 7890
+
+                    </button>
+
+                    <button class="mail">
+
+                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                        info@mymail.com
+                    </button>
+                </div>
+
+            </div>
+
+        </div>
+
+        <hr class="rote">
+
+        <div class="copy">
+            <p>Copyright © 2026 - WordPress Theme by CreativeThemes</p>
+            <p>Terms & Conditions | Privacy Policy</p>
+
+
+
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
